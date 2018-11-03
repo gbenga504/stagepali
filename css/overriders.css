@@ -166,3 +166,8 @@ second section of page
   font-size: 15px !important;
   line-height: 19px !important;
 }
+
+.header-menu-icon {
+  color: #fff;
+  cursor: pointer;
+}
