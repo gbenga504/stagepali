@@ -57,7 +57,7 @@ second section of page
 */
 .product-section-title {
   color: #353c43 !important;
-  font-weight: 500 !important;
+  font-weight: 700 !important;
   font-size: 30px !important;
   line-height: 38px !important;
   text-transform: uppercase;
@@ -115,4 +115,31 @@ second section of page
 
 .product-about-section {
   height: 591px;
+}
+
+.page-footer {
+  padding: 0px !important;
+}
+
+.page-footer-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+}
+
+.solutions-title {
+  color: #353c43;
+  font-weight: 700 !important;
+  margin-top: 0px !important;
+  font-size: 34px !important;
+  line-height: 43px;
+}
+
+.solutions-card-title {
+  color: #353c43 !important;
+}
+
+.link-stripped i {
+  font-size: 25px !important;
+  color: #353c43 !important;
 }
