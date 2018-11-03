@@ -1,0 +1,109 @@
+body {
+  overflow-x: hidden !important;
+}
+
+.header-links {
+  font-family: "Quicksand" !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+}
+
+.header-access-btn {
+  background: #000;
+  width: 160px !important;
+  height: 45px !important;
+  margin-left: 66px !important;
+  border-radius: 4px !important;
+  font-family: "Nunito Sans";
+  font-weight: 700;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 14px !important;
+}
+
+.product-intro-title {
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.product-lead-subtitle {
+  font-family: "Quicksand" !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 34px !important;
+}
+
+/**
+second section of page 
+**/
+.product-about-title {
+  font-family: "Quicksand";
+  font-weight: 300 !important;
+  font-size: 36px !important;
+  line-height: 45px;
+}
+
+.product-about-text-group-title {
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  line-height: 25px !important;
+}
+
+/**
+* Third section 
+*/
+.product-section-title {
+  color: #353c43 !important;
+  font-weight: 500 !important;
+  font-size: 30px !important;
+  line-height: 38px !important;
+  text-transform: uppercase;
+  margin-bottom: 28px !important;
+}
+
+.product-about-desc {
+  color: #5d6279 !important;
+  font-weight: 400 !important;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+
+.product-about-text-group ul {
+  list-style-type: none;
+  padding-left: 10px !important;
+}
+
+.product-about-text-group ul li {
+  margin: 0px !important;
+  padding: 0px !important;
+  margin-top: 19px !important;
+  color: #5d6279 !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 18px;
+  display: flex !important;
+  align-items: center;
+}
+
+.product-about-text-group ul li span {
+  margin-left: 8px;
+}
+
+.product-about-text-group ul li i {
+  color: #2da3fa;
+  font-size: 20px;
+}
+
+.product-about-image {
+  position: absolute;
+  height: 591px;
+  width: 685px;
+}
+
+.product-about-image img {
+  width: 98% !important;
+}
