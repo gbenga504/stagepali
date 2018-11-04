@@ -1,0 +1,78 @@
+.whitelist-container {
+  position: fixed;
+  width: 100%;
+  padding: 60px;
+  height: 100%;
+  background: #2b8cf3;
+  top: 0;
+  display: block;
+  left: 0;
+  z-index: -100;
+}
+
+.whitelist-container > div {
+  height: 100%;
+}
+
+.whitelist-close-btn {
+  font-size: 60px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.whitelist-title {
+  margin: 35px 0px;
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Nunito Sans";
+}
+
+.whitelist-form {
+  max-width: 340px;
+  width: 340px;
+}
+
+.whitelist-textinput {
+  width: 100%;
+  padding: 20px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  color: #8d8d8d;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin-bottom: 14px;
+  height: 40px;
+}
+
+.whitelist-textinput:hover {
+  border: 0;
+  background-color: #ebeff8;
+  color: #8d8d8d;
+}
+
+.whitelist-submit-btn {
+  margin: 30px 0px;
+  background-color: #fff;
+  color: #2b8cf3;
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 0 0;
+  border-radius: 6px;
+  border: 0;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Nunito Sans";
+  width: 166px;
+  height: 44px;
+}
+
+.whitelist-submit-btn:hover {
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
+}

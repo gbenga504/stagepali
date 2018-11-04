@@ -28,6 +28,9 @@
 <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700" rel="stylesheet">
 <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+    crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <style>
     .rectangle {
@@ -57,6 +60,7 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/product.css">
 <link rel="stylesheet" href="css/overriders.css">
+<link rel="stylesheet" href="css/whitelist.css">
 
 <body id="body" class="product product black-links lang-en en">
     <main class="main bg-white">
@@ -67,13 +71,6 @@
                         <div class="main-header-logo start-xs">
                             <a id="site-logo" href="http://www.getpali.co/">
                                 <img src="svgs/Logo.svg" alt="Pali" width="" height="40px"> </a>
-                            <div class="call-us">
-                                <div id="contactNumber" class="flex dropdown-menu-group reverse">
-                                    <div class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                                        aria-expanded="false">
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                         <div class="main-header-menu">
                             <nav class="site-nav hidden-xs hidden-sm" style="color: white;">
@@ -81,7 +78,7 @@
                                 <a href="#" class="site-nav-link header-links">Pricing</a>
                                 <a href="#" class="site-nav-link header-links">Partners</a>
                                 <a href="#" class="site-nav-link header-links">FAQ</a>
-                                <a id="btn-sign-up-nav" class="btn btn-main site-nav-action site-nav-sign-up-btn mr0 header-access-btn"
+                                <a id="btn-sign-up-nav" class="btn btn-main site-nav-action site-nav-sign-up-btn mr0 header-access-btn get-access-btn"
                                     href="#" data-gaCategory="Signup" data-gaAction="ClickStartTrial" data-gaLabel="MainNavigation">
                                     Get early access
                                 </a>
@@ -114,7 +111,7 @@
                                     complexities, so you can focus on getting stuff done.
                                 </span>
                                 <div class="product-intro-actions mt4">
-                                    <a class="btn fs-singleb pt1 pb1 lh-single header-access-btn" style="margin-left: 0px !important"
+                                    <a class="btn fs-singleb pt1 pb1 lh-single header-access-btn get-access-btn" style="margin-left: 0px !important"
                                         href="http://www.getpali.co/signup/" data-gaCategory="Signup" data-gaAction="ClickStartTrial"
                                         data-gaLabel="Product / Jumbotron">
                                         Get Early Access
@@ -523,7 +520,8 @@
                                         </p>
                                     </div>
                                     <div class="text-c">
-                                        <a href="#" class="btn btn-evening btn-hover-normal btn-lg" style="border-radius: 7px;
+                                        <a href="#" class="btn btn-evening btn-hover-normal btn-lg get-access-btn"
+                                            style="border-radius: 7px;
                                             background-color: #ffffff; color: #073d7d; font-size: 20px; font-weight: 700">
                                             Get early access
                                         </a>
@@ -636,11 +634,26 @@
 
             <a href="http://www.getpali.co/#faq" class="site-nav-link">FAQ</a>
         </nav>
-        <a class="btn btn-main site-nav-action site-nav-sign-up-btn" href="http://www.getpali.co/signup/"
+        <a class="btn btn-main site-nav-action site-nav-sign-up-btn get-access-btn" href="http://www.getpali.co/signup/"
             data-gaCategory="Signup" data-gaAction="ClickStartTrial" data-gaLabel="MainNavigation">Request Early Access
         </a> <a href="https://app.getpali.co/" class="site-nav-action btn btn-gray" data-gaCategory="Login"
             data-gaAction="ClickLogin" data-gaLabel="TK.comNavigation"> Log In </a>
 
+    </div>
+
+    <!-- This is for the modal section of the page-->
+    <div class="whitelist-container animated">
+        <div class="d-flex flex-column align-items-center">
+            <div class="d-flex flex-column align-items-center whitelist-form">
+                <i class="ion-ios-close-outline whitelist-close-btn"></i>
+                <h3 class="whitelist-title">Joining our waiting list</h3>
+                <input type="text" placeholder="First and Last Name" class="whitelist-textinput" />
+                <input type="text" placeholder="Email" class="whitelist-textinput" />
+                <input type="text" placeholder="Company Name" class="whitelist-textinput" />
+                <input type="text" placeholder="What would Pali be used for?" class="whitelist-textinput" />
+                <button type="submit" class="whitelist-submit-btn">Submit</button>
+            </div>
+        </div>
     </div>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
