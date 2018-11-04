@@ -20,6 +20,9 @@ function toggleWhiteListModal() {
   Array.from(openModalBtns).forEach(btn => {
     btn.addEventListener("click", function(e) {
       e.preventDefault();
+      document.body.style.overflowY = "hidden";
+      document.querySelector(".whitelist-container").style.visibility =
+        "visible";
       document
         .querySelector(".whitelist-container")
         .classList.remove("bounceOut");
@@ -35,6 +38,7 @@ function toggleWhiteListModal() {
   document
     .querySelector(".whitelist-close-btn")
     .addEventListener("click", function(e) {
+      document.body.style.overflowY = "scroll";
       document.querySelector(".whitelist-container").classList.add("bounceOut");
       setTimeout(function() {
         document
