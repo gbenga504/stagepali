@@ -27,7 +27,7 @@ function toggleWhiteListModal() {
         .querySelector(".whitelist-container")
         .classList.remove("bounceOut");
       setTimeout(function() {
-        document.querySelector(".whitelist-container").style.zIndex = "100";
+        document.querySelector(".whitelist-container").style.zIndex = "99999";
         document
           .querySelector(".whitelist-container")
           .classList.add("bounceIn");
@@ -44,7 +44,7 @@ function toggleWhiteListModal() {
         document
           .querySelector(".whitelist-container")
           .classList.remove("bounceIn");
-        document.querySelector(".whitelist-container").style.zIndex = "-100";
+        document.querySelector(".whitelist-container").style.zIndex = "-99999";
       }, 1000);
     });
 }

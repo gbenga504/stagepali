@@ -77,3 +77,19 @@
 .whitelist-submit-btn:hover {
   box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
 }
+
+@media (max-width: 340px) {
+  .whitelist-container {
+    padding: 20px;
+  }
+
+  .whitelist-form {
+    padding: 0px 20px;
+  }
+}
+
+@media (max-height: 570px) {
+  .whitelist-container {
+    padding: 20px;
+  }
+}
