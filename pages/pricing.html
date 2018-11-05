@@ -32,10 +32,12 @@
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/product.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/overriders.css">
+    <link rel="stylesheet" href="../css/whitelist.css">
     <link rel="stylesheet" href="../css/pricing.css">
 </head>
 
@@ -221,6 +223,28 @@
         </a> <a href="https://app.getpali.co/" class="site-nav-action btn btn-gray" data-gaCategory="Login"
             data-gaAction="ClickLogin" data-gaLabel="TK.comNavigation"> Log In </a>
 
+    </div>
+
+    <!-- This is for the modal section of the page-->
+    <div class="whitelist-container animated">
+        <div class="d-flex flex-column align-items-center">
+            <div class="d-flex flex-column align-items-center whitelist-form">
+                <i class="ion-ios-close-outline whitelist-close-btn"></i>
+                <h3 class="whitelist-title">Joining our waiting list</h3>
+                <input type="text" placeholder="First and Last Name" class="whitelist-textinput" />
+                <input type="text" placeholder="Email" class="whitelist-textinput" />
+                <input type="text" placeholder="Company Name" class="whitelist-textinput" />
+                <span class="whitelist-text align-self-start">We're looking to</span>
+                <select style="text-indent: 13px" class="whitelist-textinput">
+                    <option>Monitor employee spending in real-time</option>
+                    <option>Approve spending before it occurs</option>
+                    <option>Create virtual cards for online payments and subscriptions</option>
+                    <option>Disburse cash advance to employees for purchasing</option>
+                    <option>Give plastic card to employees for spending</option>
+                </select>
+                <button type="submit" class="whitelist-submit-btn">Submit</button>
+            </div>
+        </div>
     </div>
     <script type="text/javascript" src="../js/main.js"></script>
 </body>
