@@ -11,7 +11,8 @@
   margin-top: 180px;
   font-family: "Nunito Sans";
   color: #354052;
-  width: 560px;
+  max-width: 560px;
+  width: auto;
 }
 
 .pricing-main-tagline {
@@ -175,5 +176,26 @@ li.lazy::after {
 @media (max-width: 991px) {
   .header-container {
     padding: 0px;
+  }
+}
+
+@media (max-width: 640px) {
+  .pricing-main-tagline {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .pricing-small-tagline {
+    text-align: center;
+  }
+
+  .t2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 350px) {
+  .included-items {
+    flex-direction: column;
   }
 }
