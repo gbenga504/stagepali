@@ -4,6 +4,172 @@
 .header-container {
   background: #2b8cf3;
   padding-bottom: 20px;
+  height: 74px;
+}
+
+.pricing-parent-container {
+  margin-top: 180px;
+  font-family: "Nunito Sans";
+  color: #354052;
+  width: 560px;
+}
+
+.pricing-main-tagline {
+  margin-bottom: 24px;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.pricing-small-tagline {
+  margin-bottom: 70px;
+  font-size: 1.125rem;
+  line-height: 1.56;
+}
+
+.has-white-text {
+  color: #fff !important;
+}
+
+.pricing-included-content {
+  border-radius: 4px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+  background-color: #a0e9f8;
+  width: 100%;
+}
+
+.pricing {
+  padding: 32px 16px 38px;
+}
+
+.t2 {
+  font-size: 1.375rem;
+  line-height: 1.45;
+}
+
+.t3 {
+  font-size: 1.125rem;
+  line-height: 1.56;
+}
+
+.price {
+  margin: 37px auto 17px;
+  font-size: 3.875rem;
+  opacity: 0.65;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.price::before {
+  opacity: 0.65;
+  display: block;
+  line-height: 1;
+  height: 1em;
+  width: 1.5em;
+  margin-left: 40px;
+  margin-top: 30px;
+  transform: rotate(-25deg) translate(-35%, -35%);
+  border-top: 5px solid #2b8cf3;
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.free-for-limited {
+  margin-top: 2rem !important;
+  color: #2b8cf3;
+  background: #fff;
+  border-radius: 10em;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+}
+
+.included {
+  padding: 40px 60px 60px;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+
+.included::before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  min-width: 200%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  min-width: 300%;
+  min-height: 200%;
+  display: block;
+  background-color: #2b8cf3;
+}
+
+.included::after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.whats-included {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.included-items {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.included-items > ul {
+  min-width: 167px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.included-items > ul > li {
+  margin: 0;
+  padding: 0;
+  margin-right: 6px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+li.lazy::before {
+  position: static;
+  content: "";
+  align-self: center;
+  display: inline-block;
+  height: 1.1em;
+  width: 1em;
+  margin-right: 12px;
+  background-image: url("../images/check-white.png");
+  background-size: contain;
+}
+
+li.lazy::after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.margin-top-md {
+  margin-top: 1.5rem !important;
+}
+
+.has-text-left {
+  text-align: left !important;
+}
+
+.site-footer {
+  border-top: 1px solid #dfe3e9 !important;
+  margin-top: 100px;
 }
 
 @media (max-width: 991px) {
