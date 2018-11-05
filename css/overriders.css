@@ -9,6 +9,11 @@ body {
   line-height: 20px !important;
 }
 
+.header-links:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 .header-access-btn {
   background: #000;
   width: 160px !important;
@@ -20,6 +25,11 @@ body {
   text-align: center;
   padding-top: 8px;
   font-size: 14px !important;
+}
+
+.header-access-btn:hover {
+  background: #fff;
+  color: #2da3fa;
 }
 
 .product-intro-title {
@@ -201,6 +211,9 @@ second section of page
   cursor: pointer;
 }
 
+.site-footer ul li a {
+  font-size: 14px !important;
+}
 /**
 * Third section 
 */
