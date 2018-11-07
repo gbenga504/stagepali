@@ -4,10 +4,12 @@
   padding: 60px;
   height: 100%;
   background: #2b8cf3;
+  font-family: "Nunito Sans";
   top: 0;
   display: block;
   left: 0;
   z-index: -9999;
+  color: #fff;
   visibility: hidden;
 }
 
@@ -82,8 +84,34 @@
   height: 44px;
 }
 
+.whitelist-error {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #d50000;
+  font-family: "Nunito Sans";
+  margin-bottom: 10px;
+}
+
+.whitelist-success-text {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.3em;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 .whitelist-submit-btn:hover {
   box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
+}
+
+.whitelist-success-container--not-visible {
+  display: none !important;
+}
+
+.whitelist-form-container--not-visible {
+  display: none !important;
 }
 
 @media (max-width: 340px) {
