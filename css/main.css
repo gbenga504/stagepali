@@ -5229,7 +5229,6 @@ a.tag:hover {
     overflow-y: auto;
     transform: translateX(100%);
     transition: transform .3s ease-in-out;
-    will-change: transform;
     display: block;
     z-index: 9999;
     background-color: #262c38
