@@ -664,10 +664,10 @@
         <div class="d-flex flex-column align-items-center">
             <div class="d-flex flex-column align-items-center whitelist-form">
                 <i class="ion-ios-close-outline whitelist-close-btn"></i>
-                <div class="d-flex flex-column align-items-center">
+                <div class="d-flex flex-column align-items-center whitelist-form-container">
                     <h3 class="whitelist-title">Joining our waiting list</h3>
                     <input type="text" id="name" required placeholder="First and Last Name" class="whitelist-textinput" />
-                    <input type="text" id="email" required placeholder="Email" class="whitelist-textinput" />
+                    <input type="text" id="email" required placeholder="Work Email" class="whitelist-textinput" />
                     <input type="text" id="companyName" required placeholder="Company Name" class="whitelist-textinput" />
                     <span class="whitelist-text align-self-start">We're looking to</span>
                     <select style="text-indent: 13px" id="purpose" class="whitelist-textinput">
@@ -681,7 +681,7 @@
                     <button type="submit" id="whitelist-submit-btn" class="whitelist-submit-btn">Submit</button>
                     <span id="whitelist-error" class="whitelist-error text-center"></span>
                 </div>
-                <div class="d-flex flex-column align-items-center whitelist-success-container--not-visible">
+                <div class="d-flex flex-column align-items-center whitelist-success-container whitelist-success-container--not-visible">
                     <h3 style="margin: 35px 0px; font-weight: 700">You're in!</h3>
                     <img style="max-width: 100px" src="svgs/success icon.svg">
                     <p class="whitelist-success-text">Hey <span id="fullName"></span>, thanks for signing up

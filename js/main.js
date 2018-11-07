@@ -100,28 +100,26 @@ function submitWhiteListForm() {
     );
 
   submitBtn.addEventListener("click", function() {
-    let name = document.getElementById("name").value.trim(),
-      email = document.getElementById("email").value.trim(),
-      company_name = document.getElementById("companyName").value.trim(),
-      purpose = document.getElementById("purpose").value.trim(),
+    let name = document.getElementById("name"),
+      email = document.getElementById("email"),
+      company_name = document.getElementById("companyName"),
+      purpose = document.getElementById("purpose"),
       xmlHTTP = window.XMLHttpRequest
         ? new XMLHttpRequest()
         : new ActiveXObject("Microsoft.XMLHTTP"),
       errorDOM = document.getElementById("whitelist-error"),
-      { isValid, error } = handleFormValidation();
+      { isValid, error } = handleFormValidation(),
+      formData = new FormData();
+    formData.append("name", name.value.trim());
+    formData.append("company_name", company_name.value.trim());
+    formData.append("pali_use", purpose.value.trim());
+    formData.append("email", email.value.trim());
 
     if (!isValid) {
       errorDOM.innerHTML = error;
     } else {
       submitBtn.innerHTML = "Signing you up";
       errorDOM.innerHTML = "";
-
-      let data = {
-        name: name,
-        company_name: company_name,
-        email: email,
-        pali_use: purpose
-      };
 
       xmlHTTP.timeout = 30000;
 
@@ -133,8 +131,17 @@ function submitWhiteListForm() {
       };
 
       xmlHTTP.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
+        if (
+          xmlHTTP.readyState == 4 &&
+          xmlHTTP.status >= 200 &&
+          xmlHTTP.status <= 308
+        ) {
           submitBtn.innerHTML = "Submit";
+          name.value = "";
+          email.value = "";
+          purpose.value = "";
+          company_name.value = "";
+
           whiteListFormContainer.classList.add(
             "whitelist-form-container--not-visible"
           );
@@ -152,10 +159,10 @@ function submitWhiteListForm() {
 
       xmlHTTP.open(
         "POST",
-        "https://paliapitage.herokuapp.com/api/v1/request_accesses",
+        "https://paliapitage.herokuapp.com/api/v1/request-accesses",
         true
       );
-      xmlHTTP.send(JSON.stringify(data));
+      xmlHTTP.send(formData);
     }
   });
 }
