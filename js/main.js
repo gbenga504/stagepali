@@ -71,7 +71,7 @@ function handleFormValidation() {
     email = document.getElementById("email").value.trim(),
     companyName = document.getElementById("companyName").value.trim(),
     purpose = document.getElementById("purpose").value.trim(),
-    nameRegex = /^[a-zA-Z\s]{3,}$/,
+    nameRegex = /^[a-zA-Z\-\_\s]{3,}$/,
     emailRegex = /^[^\s@]+@[^\s@.]+\.[^\s@]+$/;
 
   if (name.length == 0 || !nameRegex.test(name)) {
