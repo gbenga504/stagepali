@@ -167,8 +167,43 @@ function submitWhiteListForm() {
   });
 }
 
+function fixpageHeaderLayout() {
+  window.onscroll = function(e) {
+    let posY = window.pageYOffset,
+      threshold = 0,
+      siteHeader = document.querySelector(".site-header");
+
+    if (posY == 0) {
+      threshold = 0;
+      siteHeader.classList.remove("is-fixed");
+      siteHeader.classList.remove("is-minimized");
+      siteHeader.classList.remove("is-maximized");
+    } else if (
+      posY >= 50 &&
+      posY <= 600 &&
+      threshold < posY &&
+      !siteHeader.classList.contains("is-fixed")
+    ) {
+      threshold = posY;
+      siteHeader.classList.add("is-fixed");
+    } else if (
+      posY >= 50 &&
+      posY <= 600 &&
+      threshold > posY &&
+      !siteHeader.classList.contains("is-minimized")
+    ) {
+      threshold = posY;
+      siteHeader.classList.add("is-minimized");
+    } else if (posY >= 601 && !siteHeader.classList.contains("is-maximized")) {
+      threshold = posY;
+      siteHeader.classList.add("is-maximized");
+    }
+  };
+}
+
 window.onload = function() {
   toggleMobileSideNav();
   toggleWhiteListModal();
   submitWhiteListForm();
+  fixpageHeaderLayout();
 };

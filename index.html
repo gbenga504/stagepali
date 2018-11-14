@@ -1,696 +1,839 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-
-<head>
+  <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126040171-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-126040171-1"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'UA-126040171-1');
+      gtag("config", "UA-126040171-1");
     </script>
 
     <!-- Metas -->
     <title>Pali | Company Card. Business Travel. Vendor Payment.</title>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Language" content="en">
-    <meta name="description" content="Pali is a Modern Company Card solution for business expenses. Pali simplifies and automates your business spending and travel complexities, so you can focus on getting stuff done..">
-    <meta property="og:title" content="Pali | Automated business expense management that just works!" />
-    <meta property="og:image" content="https://www.getpali.co/images/responsivehero.png" />
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Language" content="en" />
+    <meta
+      name="description"
+      content="Pali is a Modern Company Card solution for business expenses. Pali simplifies and automates your business spending and travel complexities, so you can focus on getting stuff done.."
+    />
+    <meta
+      property="og:title"
+      content="Pali | Automated business expense management that just works!"
+    />
+    <meta
+      property="og:image"
+      content="https://www.getpali.co/images/responsivehero.png"
+    />
     <meta property="og:url" content="https://www.getpali.co/" />
-    <meta property="og:type" content="article">
+    <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Pali" />
-    <meta property="og:description" content="Pali is an automated business expense solution that makes it easy to stay on top of your company spending and travel. We enable you give your employee corporate payment cards to spend and automate reports while helping you manage them in one place." />
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@Pali">
-    <meta name="twitter:title" content="Pali | Company Card. Business Travel. Vendor Payment" />
-    <meta name="twitter:image" content="https://www.getpali.co/images/responsivehero.png" />
+    <meta
+      property="og:description"
+      content="Pali is an automated business expense solution that makes it easy to stay on top of your company spending and travel. We enable you give your employee corporate payment cards to spend and automate reports while helping you manage them in one place."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Pali" />
+    <meta
+      name="twitter:title"
+      content="Pali | Company Card. Business Travel. Vendor Payment"
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.getpali.co/images/responsivehero.png"
+    />
     <meta name="twitter:url" content="http://www.getpali.co" />
-    <meta name="twitter:description" content="Pali is an automated business expense solution that makes it easy to stay on top of your company spending and travel. We enable you give your employee corporate payment cards to spend and automate reports while helping you manage them in one place." />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-    <meta name="application-name" content="GetPali">
+    <meta
+      name="twitter:description"
+      content="Pali is an automated business expense solution that makes it easy to stay on top of your company spending and travel. We enable you give your employee corporate payment cards to spend and automate reports while helping you manage them in one place."
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="application-name" content="GetPali" />
 
-    <!--link tags and styles-->
-    <link rel="shortcut icon" href="favicons/favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- link tags and styles -->
+    <link rel="shortcut icon" href="favicons/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
 
-    <style>
-        .rectangle {
-                width: 100%;
-                height: 423px;
-                box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
-                border-radius: 6px;
-                background-color: #ffffff;
-            }
-        
-            .rectangle .rect-text {
-                position: absolute;
-                bottom: 10px;
-                padding: 41px;
-                left: 0px;
-            }
-        
-            .bg-white {
-                background-color: #fff;
-            }
-        
-        </style>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/product.css">
-    <link rel="stylesheet" href="css/overriders.css">
-    <link rel="stylesheet" href="css/whitelist.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/mobile-side-nav.css" />
+    <link rel="stylesheet" href="css/product-imp.css" />
+    <link rel="stylesheet" href="css/solutions.css" />
+    <link rel="stylesheet" href="css/whitelist.css" />
+    <link rel="stylesheet" href="css/ready-launch.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
 
-<body id="body" class="product product black-links lang-en en">
-    <main class="main bg-white">
-        <header id="header_new" class="site-header ">
-            <div class="bottom-nav">
-                <div class="section pt0 pb0 md-pt3 md-pb3">
-                    <div class="main-header" style="margin-top: 25px">
-                        <div class="main-header-logo start-xs">
-                            <a id="site-logo" href="http://www.getpali.co/">
-                                <img src="svgs/Logo.svg" alt="Pali" width="" height="40px"> </a>
-                        </div>
-                        <div class="main-header-menu">
-                            <nav class="site-nav d-none d-lg-block" style="color: white;">
-                                <a href="#features" class="site-nav-link header-links">Features</a>
-                                <a href="pages/pricing.html" class="site-nav-link header-links">Pricing</a>
-                                <a href="#" class="site-nav-link header-links">Partners</a>
-                                <a href="#" class="site-nav-link header-links">FAQ</a>
-                                <a id="btn-sign-up-nav" class="btn btn-main site-nav-action site-nav-sign-up-btn mr0 header-access-btn get-access-btn"
-                                    href="#" data-gaCategory="Signup" data-gaAction="ClickStartTrial" data-gaLabel="MainNavigation">
-                                    Get early access
-                                </a>
-                            </nav>
-                            <a class="hamburger header-mobile-hamburger d-block d-lg-none" style="line-height: 1; vertical-align: middle;">
-                                <i class="ion-android-menu fs-bigger header-menu-icon"></i>
-                                <span class="dn">Menu</span>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
+  <body>
+    <main>
+      <!-- Fixed header aspect of the application -->
+      <header class="site-header d-flex align-items-center">
+        <div class="section">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="main-header-logo d-flex align-items-center start-xs">
+              <a
+                class="main-header"
+                id="site-logo"
+                href="http://www.getpali.co/"
+              >
+                <img src="svgs/Logo.svg" alt="Pali" width="" height="40px" />
+              </a>
             </div>
+            <div class="main-header-menu">
+              <nav class="d-none d-lg-block" style="color: white;">
+                <a href="#features" class="site-nav-link header-links"
+                  >Features</a
+                >
+                <a href="pages/pricing.html" class="site-nav-link header-links"
+                  >Pricing</a
+                >
+                <a href="#" class="site-nav-link header-links">Partners</a>
+                <a href="#" class="site-nav-link header-links">FAQ</a>
+                <a
+                  id="btn-sign-up-nav"
+                  class="header-access-btn get-access-btn"
+                  href="#"
+                  data-gaCategory="Signup"
+                  data-gaAction="ClickStartTrial"
+                  data-gaLabel="MainNavigation"
+                >
+                  Get early access
+                </a>
+              </nav>
+              <a class="header-mobile-hamburger d-block d-lg-none">
+                <i class="ion-android-menu header-menu-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- End of the header aspect of the application -->
+      <article>
+        <!-- Scrollable header of the application -->
+        <header class="bg-white tagline-header">
+          <div class="d-flex flex-column flex-md-row align-items-center">
+            <div class="tagline-text">
+              <h1 class="product-intro-title">
+                Focus on your business. <br />
+                We'll focus on the rest.
+              </h1>
+              <div class="d-flex flex-column product-lead-subtitle">
+                <span>
+                  Company card, vendor payment, and subscription
+                  management—built for modern businesses.
+                </span>
+                <span class="d-none d-lg-block" style="margin-top: 19px">
+                  Pali is a corporate card that simplifies and automates your
+                  business spending complexities, so you can focus on getting
+                  stuff done.
+                </span>
+                <div class="product-intro-access-btn">
+                  <a
+                    class="header-access-btn get-access-btn"
+                    style="margin-left: 0px !important"
+                    href="http://www.getpali.co/signup/"
+                    data-gaCategory="Signup"
+                    data-gaAction="ClickStartTrial"
+                    data-gaLabel="Product / Jumbotron"
+                  >
+                    Get Early Access
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="d-none d-md-block hero-product">
+              <div class="mockup-macbook">
+                <img
+                  src="images/heroapp.png"
+                  class="img-responsive"
+                  alt="Custom reports image"
+                  sizes="100vw"
+                  srcset="images/heroapp.png 767w, images/heroapp.png 1024w"
+                />
+              </div>
+            </div>
+          </div>
         </header>
-        <article id="product_page" class="clearfix">
-            <header class="bg-white prelative ohidden pt6 xs-pt4" id="product-intro" style="background-image: url(images/bg-hero.jpg); background-repeat: no-repeat;
-            background-size: cover;">
-                <div class="section pt10 z2 prelative">
-                    <div class="row row-middle pt10 pb10 prelative for-ipad-purpose">
-                        <div class="col-lg-6 offset-lg-0 col-md-10 offset-md-1 sm-text-c pb6 md-pt0 md-pb0">
-                            <h1 class="product-intro-title fw-100 tc-white mt0 lg-fs-big lg-lh-single">
-                                Focus on your
-                                business. <br> We'll focus on the rest.
-                            </h1>
-                            <p class="lead lg-fs-singleb tc-white product-lead-subtitle">
-                                Company card, vendor payment,
-                                and subscription
-                                management—built for modern businesses. <br>
-                                <br>
-                                <span>Pali is a corporate card that simplifies and automates your business spending
-                                    complexities, so you can focus on getting stuff done.
-                                </span>
-                                <div class="product-intro-actions mt4">
-                                    <a class="btn fs-singleb pt1 pb1 lh-single header-access-btn get-access-btn" style="margin-left: 0px !important"
-                                        href="http://www.getpali.co/signup/" data-gaCategory="Signup" data-gaAction="ClickStartTrial"
-                                        data-gaLabel="Product / Jumbotron">
-                                        Get Early Access
-                                    </a>
-                                </div>
-                                <p class="product-intro-actions-footer fs-small mb0 tc-white"> By submitting this form,
-                                    you agree to Pali’s <a href="">Privacy policy.</a>
-                        </div>
-                        <div class="hero-product" style="line-height:0; margin-left: 75px">
-                            <div class="mockup-macbook">
-                                <img src="images/heroapp.png" class="img-responsive" alt="Custom reports image" sizes="100vw"
-                                    srcset="images/heroapp.png 767w, images/heroapp.png 1024w">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-            <div class="progress-wrapper">
-                <section class="bg-white prelative ohidden" id="monitor">
-                    <div class="section section-progress prelative z2">
-                        <div class="pb6 md-pb4">
-                            <h2 class="product-about-title fs-bigger lg-fs-big fw-100 lh-single tc-black text-c">
-                                Business
-                                spending is important. Managing them is hard.
-                                <br class="md-break">Pali changes that.
-                            </h2>
-                            <hr style="width:5%; height:3px;border:none;color:#333;background-color:#333;">
-                            <br>
-                            <div class="row text-c">
-                                <div class="col-12 col-lg-4 md-mb2">
-                                    <h3 class="product-about-text-group-title fw-300">Automate spending</h3>
-                                    <p class="fs-single"> Give plastic and virtual Pali cards to all employees who
-                                        spend on your behalf. Virtual cards for online purchasing and subscriptions.
-                                    </p>
-                                </div>
-                                <div class="col-12 col-lg-4 md-mb2">
-                                    <h3 class="product-about-text-group-title fw-300">Gain control over spending</h3>
-                                    <p class="fs-single"> Keep everyone in the know. Define individual limits, expense
-                                        policy & approval settings and we automate the rest.
-                                    </p>
-                                </div>
-                                <div class="col-12 col-lg-4 md-mb2">
-                                    <h3 class="product-about-text-group-title fw-300">Get real-time visibility</h3>
-                                    <p class="fs-single"> Accurate, real time information to gain actionable insights
-                                        of your company spending.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="bg-white prelative ohidden" id="book">
-                    <a name="features"></a>
-                    <div class="section section-progress prelative z2">
-                        <div class="product-about-section row row-middle md-pt5 md-pb5 xs-pt0 xs-pb0">
-                            <div class="col-xl-7 col-lg-6 col-md-order-1">
-                                <img src="images/Mail-Attachment.png" class="product-about-image">
-                                <img src="images/Card.png" class="img-xs-middle" alt="Booking mobile">
-                            </div>
-                            <div class="col-xl-5 col-lg-6 col-md-order-2">
-                                <div class="pl4 xs-pl1">
-                                    <h2 class="product-about-title fs-bigger lg-fs-big fw-100 lh-single tc-black mt0 product-section-title">
-                                        Card and App built together for your employees</h2>
-                                    <div class="product-about-text-group lg-mb">
+        <!-- End of the scrollable aspect of the application -->
 
-                                        <p class="product-about-desc">Give Pali company cards to as many employees as
-                                            you like and use
-                                            the Pali mobile app to capture receipts and add addtional expense data.</p>
-
-                                        <ul>
-                                            <li>
-                                                <i class="ion-checkmark-circled"></i>
-                                                <span> company cards to your
-                                                    employees
-                                                    for their spending.</span>
-                                            </li>
-                                            <li><i class="ion-checkmark-circled"></i> <span>and enable cards in real
-                                                    time.</span></li>
-                                            <li><i class="ion-checkmark-circled"></i> <span>Get real-time notifications
-                                                    when a card is used.</span></li>
-                                            <li><i class="ion-checkmark-circled"></i><span>
-                                                    and match receipt to your transaction on the go.
-                                                </span> </li>
-                                            <li><i class="ion-checkmark-circled"></i> <span>
-                                                    every transaction by adding categories, notes or tags
-                                                </span></li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="bg-white prelative ohidden" id="manage">
-                    <div class="section section-progress prelative z2">
-                        <div class="product-about-section row row-middle pt6 pb0 md-pt5">
-                            <div class="col-xl-5 col-lg-6 col-md-order-2">
-                                <div class="pr4 xs-pr1">
-                                    <h2 class="product-about-title fs-bigger lg-fs-big fw-100 lh-single mt0 tc-black product-section-title">
-                                        Request and Spend</h2>
-                                    <div class="product-about-text-group">
-                                        <p class="product-about-desc"> One-click request to purchase online anytime you
-                                            need it. When you
-                                            select the budget, we route the request to the right approver of the new
-                                            request</p>
-                                        <ul>
-                                            <li> <i class="ion-checkmark-circled"></i> <span>one-time virtual cards for
-                                                    online purchase</span></li>
-                                            <li> <i class="ion-checkmark-circled"></i> <span>Request recurring virtual
-                                                    cards for subscriptions</span></li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="col-xl-7 col-lg-6 col-md-order-1">
-                                <div class="product-policy-image prelative">
-                                    <img src="images/Mail-Attachment.png" class="product-about-image">
-                                    <img class="img-xs-middle img-xs-middle-request" src="images/Request and Spend.png">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="bg-white prelative ohidden" id="book">
-                    <div class="section section-progress prelative z2">
-                        <div class="product-about-section row row-middle md-pt5 md-pb5 xs-pt0 xs-pb0">
-                            <div class="col-xl-7 col-lg-6  prelative col-md-order-1">
-                                <img src="images/Mail-Attachment.png" class="product-about-image product-about-image-full-control">
-                                <img src="images/Group.png" class="img-xs-middle img-xs-middle-full-control" alt="Booking mobile">
-                            </div>
-                            <div class="col-xl-5 col-lg-6 col-md-order-2">
-                                <div class="pl4 xs-pl1">
-                                    <h2 class="product-about-title fs-bigger lg-fs-big fw-100 lh-single tc-black mt0 product-section-title">
-                                        Full Control For You</h2>
-                                    <div class="product-about-text-group lg-mb">
-
-                                        <p class="product-about-desc">Define your policy & approval workflow once and
-                                            automate the rest.
-                                            Customize spending limits and worklow.</p>
-                                        <ul>
-                                            <li>
-                                                <i class="ion-checkmark-circled"></i>
-                                                <span>Set spending limit for
-                                                    each employee (pre-approve spending).
-                                                </span>
-                                            </li>
-                                            <li>
-                                                <i class="ion-checkmark-circled"></i>
-                                                <span>
-                                                    a spending method that fits each purchase.
-                                                </span>
-                                            </li>
-                                            <li>
-                                                <i class="ion-checkmark-circled"></i>
-                                                <span>
-                                                    granular approval workflow for purchase request.
-                                                </span>
-                                            </li>
-                                            <li>
-                                                <i class="ion-checkmark-circled"></i>
-                                                <span>
-                                                    Program rules to enforce your expense policy
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="pl4 xs-pl1">
-                                    <h2 class="product-about-title fs-bigger lg-fs-big fw-100 lh-single tc-black mt0 product-section-title">
-                                        Custom Fields</h2>
-                                    <div class="product-about-text-group lg-mb">
-
-                                        <p class="product-about-desc">
-                                            Track data that is important to your business such as cost centers,
-                                            location, department, projects, clients, trips or any other information
-                                            needed
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </section>
-                <section class="bg-white" id="manage">
-                    <div class="section section-progress">
-                        <div class="product-about-section row row-middle pt6 pb0 md-pt5">
-                            <div class="col-xl-5 col-lg-6 col-md-order-2">
-                                <div class="pr4 xs-pr1">
-                                    <h2 class="product-about-title fs-bigger lg-fs-big fw-100 lh-single mt0 tc-black product-section-title">
-                                        Real-time overview</h2>
-                                    <div class="product-about-text-group">
-                                        <p class="product-about-desc"> View, track and manage all your company’s
-                                            spending data in
-                                            real-time enriched with the transaction data added by employees, including
-                                            receipts, cost centers, notes and tags. Always know who made what purchase,
-                                            who approved it, and for what purpose.
-                                            <br>
-                                            <br>
-                                            Easily analyze spending by employee, department, vendor and period. Get
-                                            notified about successful payments or for unusual activity.</p>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="col-xl-7 col-lg-6 col-md-order-1">
-                                <img src="images/Mail-Attachment.png" class="product-about-image product-about-image-real-time">
-                                <img src="images/DefaultScreen.png" class="img-xs-middle img-xs-middle-real-time" alt="Real-time Overview">
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="bg-white" id="manage">
-                    <div class="section section-progress">
-                        <div class="product-about-section row row-middle pt6 pb0 md-pt5" style="height: auto !important">
-                            <div class="col-xl-5 col-lg-6 col-md-order-2">
-                                <div class="pr4 xs-pr1">
-                                    <h2 class="product-about-title fs-bigger lg-fs-big fw-100 lh-single mt0 tc-black product-section-title">
-                                        Automate Access
-                                    </h2>
-                                    <div class="product-about-text-group">
-                                        <p class="product-about-desc">
-                                            Pali integrates the apps and accounting software that your company uses
-                                            everyday to make your business operate smoothly.
-                                        </p>
-                                        <ul>
-                                            <li> <i class="ion-checkmark-circled"></i> <span>Use Pali on Whatsapp or
-                                                    Slack to request , approve and capture receipt</span></li>
-                                            <li> <i class="ion-checkmark-circled"></i> <span>Easily connect with your
-                                                    accounting software automate reconciliation</span></li>
-                                            <li> <i class="ion-checkmark-circled"></i> <span>Use MVisa Scan and Pay
-                                                    with the control of Pali</span></li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="col-xl-7 col-lg-6 col-md-order-1">
-                                <div class="product-policy-image prelative" style="display: flex; justify-content: center;">
-                                    <img class="img-xs-middle img-xs-middle-automate-access" src="images/Accounting-logo.png">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+        <!-- Product importance section of the application -->
+        <div class="d-flex flex-column">
+          <section class="d-flex flex-column product-main-importance">
+            <div
+              class="product-main-importance__title text-center d-flex flex-column"
+            >
+              <span>
+                Business spending is important. Managing them is hard.
+              </span>
+              <span>Pali changes that.</span>
             </div>
+            <hr class="product-hr align-self-center" />
+            <div class="d-flex flex-column flex-md-row justify-content-between">
+              <div class="d-flex flex-column align-items-center">
+                <h3 class="product-main-importance__sub-title">
+                  Automate spending
+                </h3>
+                <p class="product-main-importance__sub-content text-center">
+                  Give plastic and virtual Pali cards to all employees who spend
+                  on your behalf. Virtual cards for online purchasing and
+                  subscriptions.
+                </p>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center product-main-importance__keynote"
+                style="margin-left: 80px"
+              >
+                <h3 class="product-main-importance__sub-title">
+                  Gain control over spending
+                </h3>
+                <p class="product-main-importance__sub-content text-center">
+                  Keep everyone in the know. Define individual limits, expense
+                  policy & approval settings and we automate the rest.
+                </p>
+              </div>
+              <div
+                class="d-flex flex-column align-items-center align-self-start product-main-importance__keynote"
+                style="margin-left: 80px"
+              >
+                <h3 class="product-main-importance__sub-title">
+                  Get real-time visibility
+                </h3>
+                <p class="product-main-importance__sub-content text-center">
+                  Accurate, real time information to gain actionable insights of
+                  your company spending.
+                </p>
+              </div>
+            </div>
+          </section>
+          <a name="features"></a>
+          <section
+            class="d-flex flex-column flex-lg-row justify-content-between align-items-center product-about"
+          >
+            <div class="w-50 product-about__image-container">
+              <img
+                src="images/Card.png"
+                class="product-about__first-image"
+                alt="Booking mobile"
+              />
+            </div>
+            <div
+              class="w-50 d-flex flex-column product-about__ltr-content-position"
+            >
+              <h2 class="product-about-title">
+                Card and App built together for your employees
+              </h2>
+              <div class="product-about-text-group d-flex flex-column">
+                <p class="product-about-desc">
+                  Give Pali company cards to as many employees as you like and
+                  use the Pali mobile app to capture receipts and add addtional
+                  expense data.
+                </p>
+                <ul>
+                  <li>
+                    <i class="ion-checkmark-circled"></i>
+                    <span> A company cards for employees spending. </span>
+                  </li>
+                  <li>
+                    <i class="ion-checkmark-circled"></i>
+                    <span> Disable and enable cards in real time. </span>
+                  </li>
+                  <li>
+                    <i class="ion-checkmark-circled"></i>
+                    <span>
+                      Get real-time notifications when a card is used.
+                    </span>
+                  </li>
+                  <li>
+                    <i class="ion-checkmark-circled"></i>
+                    <span>
+                      Capture and match receipt to your transaction on the go.
+                    </span>
+                  </li>
+                  <li>
+                    <i class="ion-checkmark-circled"></i>
+                    <span>
+                      Enrich every transaction by adding categories, notes or
+                      tags
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section
+            class="d-flex flex-column flex-lg-row justify-content-between align-items-center product-about"
+          >
+            <div
+              class="w-50 order-2 order-lg-1 d-flex flex-column product-about__rtl-content-position"
+            >
+              <h2 class="product-about-title">Request and Spend</h2>
+              <div class="product-about-text-group d-flex flex-column">
+                <p class="product-about-desc">
+                  One-click request to purchase online anytime you need it. When
+                  you select the budget, we route the request to the right
+                  approver of the new request
+                </p>
+                <ul>
+                  <li>
+                    <i class="ion-checkmark-circled"></i>
+                    <span>
+                      Request one-time virtual cards for online purchase
+                    </span>
+                  </li>
+                  <li>
+                    <i class="ion-checkmark-circled"></i>
+                    <span>
+                      Request recurring virtual cards for subscriptions
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="w-50 order-1 order-lg-2  product-about__image-container"
+            >
+              <img
+                class="product-about__second-image"
+                src="images/Request and Spend.png"
+              />
+            </div>
+          </section>
+          <section
+            class="d-flex flex-column flex-lg-row justify-content-between align-items-center product-about"
+          >
+            <div class="w-50 product-about__image-container">
+              <img
+                src="images/Group.png"
+                class="product-about__third-image"
+                alt="Booking mobile"
+              />
+            </div>
+            <div
+              class="w-50 d-flex flex-column product-about__ltr-content-position"
+            >
+              <h2 class="product-about-title">Full Control For You</h2>
+              <div class="product-about-text-group d-flex flex-column">
+                <p class="product-about-desc">
+                  Define your policy & approval workflow once and automate the
+                  rest. Customize spending limits and worklow to control
+                  spending before it happens.
+                </p>
+                <ul>
+                  <li>
+                    <i class="ion-checkmark-circled"></i>
+                    <span>
+                      Set spending limit for each employee (pre-approve
+                      spending).
+                    </span>
+                  </li>
+                  <li>
+                    <i class="ion-checkmark-circled"></i>
+                    <span>
+                      Create granular multi approval workflow for purchase
+                      request
+                    </span>
+                  </li>
+                  <li>
+                    <i class="ion-checkmark-circled"></i>
+                    <span>
+                      Route requests by supplier, cost centers or categories to
+                      the right approver.
+                    </span>
+                  </li>
+                  <li>
+                    <i class="ion-checkmark-circled"></i>
+                    <span>
+                      Program warning and block rules to enforce your expense
+                      policy
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <h2 class="product-about-title">Custom Fields</h2>
+              <div class="product-about-text-group lg-mb">
+                <p class="product-about-desc">
+                  Track data that is important to your business such as cost
+                  centers, location, department, projects, clients, trips or any
+                  other information needed
+                </p>
+              </div>
+            </div>
+          </section>
+          <section
+            class="d-flex flex-column flex-lg-row justify-content-between align-items-center product-about"
+          >
+            <div
+              class="w-50 order-2 order-lg-1 d-flex flex-column product-about__rtl-content-position"
+            >
+              <h2 class="product-about-title">Real-time overview</h2>
+              <div class="product-about-text-group d-flex flex-column">
+                <p class="product-about-desc">
+                  View, track and manage all your company’s spending data in
+                  real-time enriched with the transaction data added by
+                  employees, including receipts, cost centers, notes and tags.
+                  Always know who made what purchase, who approved it, and for
+                  what purpose. <br />
+                  <br />
+                  Easily analyze spending by employee, department, vendor and
+                  period. Get notified about successful payments or for unusual
+                  activity.
+                </p>
+              </div>
+            </div>
+            <div class="w-50 order-1 order-lg-2 product-about__image-container">
+              <img
+                src="images/DefaultScreen.png"
+                class="product-about__fourth-image"
+                alt="Real-time Overview"
+              />
+            </div>
+          </section>
+          <section
+            class="d-flex flex-column flex-lg-row justify-content-between align-items-center product-about"
+          >
+            <div
+              class="w-50 order-2 order-lg-1 d-flex flex-column product-about__rtl-content-position"
+            >
+              <h2 class="product-about-title">Automate Access</h2>
+              <div class="product-about-text-group d-flex flex-column">
+                <p class="product-about-desc">
+                  Pali integrates the apps and accounting software that your
+                  company uses everyday to make your business operate smoothly.
+                </p>
+                <ul>
+                  <li>
+                    <i class="ion-checkmark-circled"></i>
+                    <span>
+                      Use Pali on Whatsapp or Slack to request , approve and
+                      capture receipt
+                    </span>
+                  </li>
+                  <li>
+                    <i class="ion-checkmark-circled"></i>
+                    <span>
+                      Easily connect with your accounting software automate
+                      reconciliation
+                    </span>
+                  </li>
+                  <li>
+                    <i class="ion-checkmark-circled"></i>
+                    <span>
+                      Use MVisa Scan and Pay with the control of Pali
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="w-50 order-1 order-lg-2 product-about__image-container"
+              style="height: auto; background: none"
+            >
+              <img
+                src="images/Accounting-logo.png"
+                class="product-about__fifth-image"
+              />
+            </div>
+          </section>
+        </div>
+        <!-- End of the product importance section of the application -->
 
-            <header class="bg-white prelative ohidden pt6 xs-pt4" id="product-intro" style="background-image: url(images/headerslice.png); background-repeat: no-repeat;
-            background-size: cover; margin-top: 68px">
-                <div class="section pt10 z2 prelative page-footer">
-                    <div class="row row-middle prelative for-ipad-purpose">
-                        <div class="col-lg-12 offset-lg-0 col-md-10 offset-md-1 sm-text-c pb6 md-pt0 md-pb0">
-                            <h1 class="page-footer-title fw-100  mt0 lg-fs-big lg-lh-single" style="color: black;">
-                                AUTOMATED RECONCILATION <br> AND DETAILED INSIGHTS.</h1>
-                        </div>
-                    </div>
-                    <div class="row" style="padding: 0px 50px;">
-                        <div class="col-sm-4">
-                            <h3 class="product-about-text-group-title fw-300">Export</h3>
-                            <p class="fs-single">Export transaction data as PDF document, with the possibility to
-                                include receipts and invoices or in Excel format for further data analysis.</p>
-                        </div>
-                        <div class="col-sm-4">
-                            <h3 class="product-about-text-group-title fw-300">Granular Data</h3>
-                            <p class="fs-single">Capture GL and CC code categorization as purchases are made</p>
-                        </div>
-                        <div class="col-sm-4">
-                            <h3 class="product-about-text-group-title fw-300">Automate Reconciliation</h3>
-                            <p class="fs-single">Export your spend with real-time data broken down by employees,
-                                groups, tags, payment method and Date range </p>
-                        </div>
+        <!-- Automated Reconciliation aspect -->
+        <header
+          class="d-flex flex-column product-automated-reconciliation__container"
+        >
+          <h1 class="product-automated-reconciliation__title">
+            AUTOMATED RECONCILATION <br />
+            AND DETAILED INSIGHTS.
+          </h1>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between product-automated-reconciliation__middle-section"
+          >
+            <div class="d-flex flex-column">
+              <h3 class="product-automated-reconciliation__sub-title">
+                Export
+              </h3>
+              <div class="product-automated-reconciliation__sub-content">
+                Export transaction data as PDF document, with the possibility to
+                include receipts and invoices or in Excel format for further
+                data analysis.
+              </div>
+            </div>
+            <div
+              class="d-flex flex-column product-automated-reconciliation__middle-section--margin"
+            >
+              <h3 class="product-automated-reconciliation__sub-title">
+                Granular Data
+              </h3>
+              <div class="product-automated-reconciliation__sub-content">
+                Capture GL and CC code categorization as purchases are made
+              </div>
+            </div>
+            <div
+              class="d-flex flex-column product-automated-reconciliation__middle-section--margin"
+            >
+              <h3 class="product-automated-reconciliation__sub-title">
+                Automate Reconciliation
+              </h3>
+              <div class="product-automated-reconciliation__sub-content">
+                Export your spend with real-time data broken down by employees,
+                groups, tags, payment method and Date range
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <img
+              src="images/Rectangle.png"
+              class="product-automated-reconciliation__image"
+              alt="Booking mobile"
+            />
+          </div>
+        </header>
+        <!-- End of the Automated Reconciliation aspect of the app -->
 
-                        <div class="col-xl-12 prelative col-sm-12">
-                            <img src="images/Rectangle.png" class="img-xs-middle" style="margin-top: 0px !important; width: 100% !important"
-                                alt="Booking mobile">
-                        </div>
-                    </div>
+        <!-- Beginning of the solution section of the application -->
+        <section class="d-flex flex-column" style="padding: 0% 5%">
+          <h2 class="solutions-title align-self-center">
+            Solution for Everyone
+          </h2>
+          <div class="d-flex flex-column flex-md-row">
+            <div
+              class="d-flex flex-column justify-content-end w-100 solutions-card"
+            >
+              <div>
+                <h3 class="solutions-card-title">Pali for</h3>
+                <h3 class="solutions-card-title">Startup and IT companies</h3>
+              </div>
+              <p class="solutions-card-text">
+                Manage your employee spending and subscriptions more efficiently
+                with Pali plastic and virtual cards.
+              </p>
+            </div>
+            <div
+              class="d-flex flex-column justify-content-end w-100 solutions-card"
+            >
+              <div>
+                <h3 class="solutions-card-title fw-300">Pali for</h3>
+                <h3 class="solutions-card-title fw-300">Small Businesses</h3>
+              </div>
+              <p class="solutions-card-text">
+                Easily manage and control petty cash and fuel cost more
+                efficiently with Pali company cards and apps..
+              </p>
+            </div>
+            <div
+              class="d-flex flex-column justify-content-end w-100 solutions-card"
+            >
+              <div>
+                <h3 class="solutions-card-title">Pali for</h3>
+                <h3 class="solutions-card-title">Large Organizations</h3>
+              </div>
+              <p class="solutions-card-text">
+                Streamline your corporate expense workflow with Pali corporate
+                cards and expense management solution..
+              </p>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-md-row">
+            <div class="d-flex w-100 solutions-card solutions-card__bottom">
+              <div class="solutions-bottom-card-rect-text">
+                <div>
+                  <h3 class="solutions-card-title">Pali for</h3>
+                  <h3 class="solutions-card-title">Startup Agencies</h3>
                 </div>
-            </header>
-            <section class="bg-white" id="manage">
-                <div class="section section-progress" style="padding: 0px;">
-                    <div class="section section-progress prelative z2" style="padding: 0px">
-                        <div>
-                            <h2 class="product-about-title fs-bigger lg-fs-big fw-100 lh-single tc-black text-c solutions-title">Solution
-                                for Everyone</h2>
-                        </div>
-                    </div>
-                    <div class="row row-middle pb0">
-                        <div class="col-sm-4" style="margin:20px 0px;">
-                            <div class="rectangle">
-                                <div class="rect-text">
-                                    <div>
-                                        <h3 class="product-about-text-group-title solutions-card-title fw-300">
-                                            Pali for
-                                        </h3>
-                                        <h3 class="product-about-text-group-title solutions-card-title fw-300">
-                                            Startup and IT companies
-                                        </h3>
-                                    </div>
-                                    <p class="fs-single solutions-card-text">
-                                        Manage your employee spending and subscriptions more
-                                        efficiently with Pali plastic and virtual cards..
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4" style="margin:20px 0px;">
-                            <div class="rectangle">
-                                <div class="rect-text">
-                                    <div>
-                                        <h3 class="product-about-text-group-title solutions-card-title fw-300">
-                                            Pali for
-                                        </h3>
-                                        <h3 class="product-about-text-group-title solutions-card-title fw-300">
-                                            Small Businesses
-                                        </h3>
-                                    </div>
-
-                                    <p class="fs-single solutions-card-text">
-                                        Easily manage and control petty cash and fuel cost more
-                                        efficiently with Pali company cards and apps..
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4" style="margin:20px 0px;">
-                            <div class="rectangle">
-                                <div class="rect-text">
-                                    <div>
-                                        <h3 class="product-about-text-group-title solutions-card-title fw-300">
-                                            Pali for
-                                        </h3>
-                                        <h3 class="product-about-text-group-title solutions-card-title fw-300">
-                                            Large Organizations
-                                        </h3>
-                                    </div>
-                                    <p class="fs-single solutions-card-text">
-                                        Streamline your corporate expense workflow
-                                        with Pali corporate
-                                        cards and expense management solution..
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row row-middle pb0 md-pt5">
-                        <div class="col-xs-6 col-sm-12 col-md-6" style="margin:20px 0px;">
-                            <div class="rectangle" style="height: 204px;">
-                                <div class="rect-text solutions-bottom-card-rect-text">
-                                    <div>
-                                        <h3 class="product-about-text-group-title solutions-card-title fw-300">
-                                            Pali for
-                                        </h3>
-                                        <h3 class="product-about-text-group-title solutions-card-title fw-300">Startup
-                                            Agencies
-                                        </h3>
-                                    </div>
-
-                                    <p class="fs-single solutions-card-text">
-                                        Manage your contractor and employee expense for your client's project with Pali
-                                        company cards and software.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 col-sm-12 col-md-6" style="margin:20px 0px;">
-                            <div class="rectangle" style="height: 204px;">
-                                <div class="rect-text solutions-bottom-card-rect-text">
-                                    <div>
-                                        <h3 class="product-about-text-group-title solutions-card-title fw-300">
-                                            Pali for
-                                        </h3>
-                                        <h3 class="product-about-text-group-title solutions-card-title fw-300">
-                                            Accountants
-                                        </h3>
-                                    </div>
-
-                                    <p class="fs-single solutions-card-text">
-                                        Partner with Pali to better manage your clients company expenses and your
-                                        employee expenses.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <p class="solutions-card-text">
+                  Manage your contractor and employee expense for your client's
+                  project with Pali company cards and software.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex w-100 solutions-card solutions-card__bottom">
+              <div class="solutions-bottom-card-rect-text">
+                <div>
+                  <h3 class="solutions-card-title">Pali for</h3>
+                  <h3 class="solutions-card-title">Accountants</h3>
                 </div>
-            </section>
-            <section class="ready-launch-container prelative ohidden pt5 pb5" id="announcingBottom" style="margin-top: 50px">
-                <div class="section pt3 pb3 prelative z3">
-                    <div class="row row-middle">
-                        <div class="col-12 col-lg-10 offset-lg-1 offset-md-0 pl8 pr8 md-pl0 md-pr0">
-                            <div class="row row-middle pl6 pr6 xs-pl2 xs-pr2">
-                                <div class="pb6 md-pb4">
-                                    <div class="row text-c" style="
-                                        padding: 20px;
-                                    ">
-                                        <p class="tc-white" style="font-size: 18px;
-                                              font-weight: 500;
-                                              line-height: 20px;">
-                                            Pali is getting ready to launch for a limited number of companies.
-                                            We’ve only got 100 invites for our Alpha Preview
-                                            <br>
-                                            <br>
-                                            Sign up to get on the waitlist.
-                                        </p>
-                                    </div>
-                                    <div class="text-c">
-                                        <a href="#" class="btn btn-evening btn-hover-normal btn-lg get-access-btn"
-                                            style="border-radius: 7px;
-                                            background-color: #ffffff; color: #073d7d; font-size: 20px; font-weight: 700">
-                                            Get early access
-                                        </a>
-                                    </div>
-                                </div>
+                <p class="solutions-card-text">
+                  Partner with Pali to better manage your clients company
+                  expenses and your employee expenses.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End of the solutions section of the application -->
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </article>
+        <!-- Pali getting ready container -->
+        <section
+          class="d-flex flex-column align-items-center ready-launch-container"
+        >
+          <p class="ready-launch-container__text">
+            Pali is getting ready to launch for a limited number of companies.
+            We’ve only got 100 invites for our Alpha Preview
+          </p>
+          <p class="ready-launch-container__text">
+            Sign up to get on the waitlist.
+          </p>
+          <a
+            href="#"
+            class="ready-launch-container__bottom-access-btn get-access-btn"
+          >
+            Get early access
+          </a>
+        </section>
+        <!-- End of the Pali getting ready container -->
+      </article>
     </main>
 
-    <footer class="site-footer new-footer">
-        <div class="footer-section section xs-text-c">
-            <div class="row pt0 pb6 xs-pt5 xs-pb5">
-                <div class="col-12 col-md-6 col-xl-3 tc-gray200 pr5 xs-pr5 lg-pt0 lg-pb8">
-                    <h4 class="footer-nav-title fs-single tt-upper mt3 mb3 xs-mb2"> FEATURES</h4>
-                    <nav class="nav-list">
-                        <ul class="no-bullet">
-                            <li> <a class="fs-single" href="" title="Company Card" data-ga-category="Site Nav Product">
-                                    Company Card </a></li>
-                            <li> <a class="fs-single" href="" title="Request and Spend" data-ga-category="Site Nav Product">Request
-                                    and Spend </a> </li>
-                            <li> <a class="fs-single" href="" title="Full Control" data-ga-category="Site Nav Product">
-                                    Full Control </a></li>
-                            <li> <a class="fs-single" href="#" title="Real Time Overview" data-ga-category="Site Nav Product">
-                                    Real Time Overview </a></li>
-                            <li> <a class="fs-single" href="#" title="Automate Access " data-ga-category="Site Nav Product">
-                                    Automate Access </a></li>
-                            <li> <a class="fs-single" href="#" title="Detailed Reporting " data-ga-category="Site Nav Product">Detailed
-                                    Reporting </a></li>
-                        </ul>
-                    </nav>
-                </div>
-
-                <div class="col-12 col-md-6 col-xl-3 tc-gray200 pr5 xs-pr5 lg-pt0 lg-pb8">
-                    <h4 class="footer-nav-title fs-single tt-upper mt3 mb3 xs-mb2"> PRICING</h4>
-                    <nav class="nav-list">
-                        <ul class="no-bullet">
-                            <li> <a class="fs-single" href="#" title="Integrations" data-ga-category="Site Nav Resources">Integrations
-                                </a></li>
-                            <li> <a class="fs-single" href="#" title="FAQ" target="" data-ga-category="Site Nav Resources">FAQ
-                                </a></li>
-                            <li> <a class="fs-single" href="#" title="Partners" data-ga-category="Site Nav Resources">
-                                    Partners </a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3 tc-gray200 pr5 xs-pr5 lg-pt0 lg-pb8">
-                    <h4 class="footer-nav-title fs-single tt-upper mt3 mb3 xs-mb2">COMPANY</h4>
-                    <nav class="nav-list">
-                        <ul class="no-bullet">
-                            <li>
-                                <a class="fs-single" href="#" title="About Us" data-ga-category="Site Nav About">
-                                    About Us
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3 tc-gray200 pr5 xs-pr5 lg-pt0 lg-pb8">
-                    <h4 class="footer-nav-title fs-single tt-upper mt3 mb3 xs-mb2"> GET IN TOUCH</h4>
-                    <nav class="nav-list">
-                        <ul class="no-bullet">
-                            <li> <a class="fs-single" href="mail-to: info@getpali.co" title="Contact" data-ga-category="Site Nav Contact">info@getpali.co
-                                </a></li>
-                            <div class="mt0 mb3">
-                                <div class="social pt1">
-                                    <a target="_blank" title="Facebook" class="icon-facebook2 link-stripped" href="https://medium.com/palihq/">
-                                        <i class="tc-black fs-bigger lh-none mr2 ion-social-facebook"></i> </a>
-                                    <a target="_blank" title="Twitter" class="icon-twitter link-stripped" href="https://twitter.com/palihq/">
-                                        <i class="tc-black fs-bigger lh-none mr2 ion-social-instagram-outline"></i> </a>
-                                    <a target="_blank" title="LinkedIn" class="icon-linkedin link-stripped" href="https://www.linkedin.com/company/getpali/">
-                                        <i class="tc-black fs-bigger lh-none mr2 ion-social-twitter"></i> </a>
-                                </div>
-                            </div>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <div>
-                <p class="fs-smaller" style="margin-bottom: 0px !important;">
-                    GetPali.co is a property of Pali Technologies Nigeria limited, a company duly registered with the
-                </p>
-                <p class="fs-smaller" style="margin-bottom: 0px !important;">
-                    Corporate Affairs Commission, Nigeria with the RC Number 1419869
-                </p>
-                <p class="fs-smaller" style="margin-bottom: 20px !important; margin-top: 10px">
-                    The Pali Card issued by Bank, pursuant to a license from Visa.
-                </p>
-            </div>
-            <div class="footer-bottom-part text-c xs-pt2">
-                <p class="fs-smaller">&copy; Pali Technologies, Ltd. Made with <i class="ion-ios-heart" style="color: red"></i>
-                    in Lagos.
-                </p>
-            </div>
-    </footer>
-
-    <!--This is the toggle menu container for mobile screens -->
-    <div id="toggle_menu" class="bg-dark toggle-menu pt4 pb4 pl4 pr4 xs-pt3 xs-pb3 xs-pl2 xs-pr2">
-        <div class="header-mobile-top main-header">
-            <a href="http://www.getpali.co/">
-                <img src="images/palilogowhite.png" alt="Pali logo" width="" height="32">
-            </a>
-            <a class="header-mobile-close pt1 pb1 pl2 pr0 fs-medium">
-                <i class="ion-ios-close-outline" style="color: #fff"></i>
-            </a>
+    <!-- Footer of the application -->
+    <footer class="site-footer d-flex flex-column">
+      <div class="d-flex flex-column flex-sm-row site-footer__top-container">
+        <div class="d-flex justify-content-between">
+          <div class="d-flex flex-column">
+            <h4 class="footer-nav-title">FEATURES</h4>
+            <nav class="nav-list">
+              <ul class="site-footer__no-bullet">
+                <li><a href="" title="Company Card"> Company Card </a></li>
+                <li>
+                  <a href="" title="Request and Spend"> Request and Spend </a>
+                </li>
+                <li><a href="" title="Full Control"> Full Control </a></li>
+                <li>
+                  <a href="#" title="Real Time Overview">
+                    Real Time Overview
+                  </a>
+                </li>
+                <li>
+                  <a href="#" title="Automate Access"> Automate Access </a>
+                </li>
+                <li>
+                  <a href="#" title="Detailed Reporting">
+                    Detailed Reporting
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="d-flex flex-column">
+            <h4 class="footer-nav-title">PRICING</h4>
+            <nav class="nav-list">
+              <ul class="site-footer__no-bullet">
+                <li><a href="#" title="Integrations">Integrations </a></li>
+                <li><a href="#" title="FAQ">FAQ </a></li>
+                <li><a href="#" title="Partners"> Partners </a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
-        <nav class="site-nav db mt4 mb4">
-            <a href="#features" class="site-nav-link">Features</a>
-            <a href="pages/pricing.html" class="site-nav-link">Pricing</a>
-            <a href="#" class="site-nav-link">Customers</a>
-            <a href="#" class="site-nav-link">FAQ</a>
-        </nav>
-        <a class="btn btn-main site-nav-action site-nav-sign-up-btn get-access-btn" href="#" data-gaCategory="Signup"
-            data-gaAction="ClickStartTrial" data-gaLabel="MainNavigation">
-            Request Early Access
+
+        <div
+          class="d-flex justify-content-between site-footer__second-inner-container"
+        >
+          <div class="d-flex flex-column">
+            <h4 class="footer-nav-title">COMPANY</h4>
+            <nav class="nav-list">
+              <ul class="site-footer__no-bullet">
+                <li><a href="#" title="About Us"> About Us </a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="d-flex flex-column">
+            <h4 class="footer-nav-title">GET IN TOUCH</h4>
+            <nav class="nav-list">
+              <ul class="site-footer__no-bullet">
+                <li>
+                  <a href="mail-to: info@getpali.co" title="Contact"
+                    >info@getpali.co
+                  </a>
+                </li>
+                <div class="d-flex justify-content-between" style="width: 100%">
+                  <a
+                    target="_blank"
+                    title="Facebook"
+                    class="icon-facebook2 link-stripped"
+                    href="https://medium.com/palihq/"
+                  >
+                    <i class="ion-social-facebook"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    title="Twitter"
+                    class="icon-twitter link-stripped"
+                    href="https://twitter.com/palihq/"
+                  >
+                    <i class="ion-social-instagram-outline"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    title="LinkedIn"
+                    class="icon-linkedin link-stripped"
+                    href="https://www.linkedin.com/company/getpali/"
+                  >
+                    <i class="ion-social-twitter"></i>
+                  </a>
+                </div>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="site-footer__smaller-text">
+          GetPali.co is a property of Pali Technologies Nigeria limited, a
+          company duly registered with the
+        </p>
+        <p class="site-footer__smaller-text">
+          Corporate Affairs Commission, Nigeria with the RC Number 1419869
+        </p>
+        <p
+          class="site-footer__smaller-text"
+          style="margin-bottom: 20px !important; margin-top: 10px"
+        >
+          The Pali Card issued by Bank, pursuant to a license from Visa.
+        </p>
+      </div>
+      <div class="align-self-center">
+        <span class="site-footer__smaller-text">
+          &copy; Pali Technologies, Ltd. Made with
+          <i class="ion-ios-heart" style="color: red"></i> in Lagos.
+        </span>
+      </div>
+    </footer>
+    <!-- End of the footer of the application -->
+
+    <!-- This is the toggle menu container for mobile screens -->
+    <div id="toggle_menu" class="toggle-menu">
+      <div
+        class="d-flex justify-content-between align-items-center main-header"
+      >
+        <a href="http://www.getpali.co/">
+          <img
+            src="images/palilogowhite.png"
+            alt="Pali logo"
+            width=""
+            height="32"
+          />
         </a>
-        <a href="#" class="site-nav-action btn btn-gray" data-gaCategory="Login" data-gaAction="ClickLogin"
-            data-gaLabel="TK.comNavigation">
-            Log In
+        <a class="header-mobile-close">
+          <i class="ion-ios-close-outline"></i>
         </a>
+      </div>
+      <nav class="site-nav">
+        <a href="#features" class="site-nav-link">Features</a>
+        <a href="pages/pricing.html" class="site-nav-link">Pricing</a>
+        <a href="#" class="site-nav-link">Customers</a>
+        <a href="#" class="site-nav-link">FAQ</a>
+        <a href="#" class="site-nav-link login">Login</a>
+      </nav>
+      <div class="d-flex align-items-center">
+        <a href="#" class="mobile-request-early-access">
+          Request Early Access
+        </a>
+      </div>
     </div>
 
-    <!-- This is for the modal section of the page-->
+    <!-- This is for the modal section of the page -->
     <div class="whitelist-container animated">
-        <div class="d-flex flex-column align-items-center">
-            <div class="d-flex flex-column align-items-center whitelist-form">
-                <i class="ion-ios-close-outline whitelist-close-btn"></i>
-                <div class="d-flex flex-column align-items-center whitelist-form-container">
-                    <h3 class="whitelist-title">Joining our waiting list</h3>
-                    <input type="text" id="name" required placeholder="First and Last Name" class="whitelist-textinput" />
-                    <input type="text" id="email" required placeholder="Work Email" class="whitelist-textinput" />
-                    <input type="text" id="companyName" required placeholder="Company Name" class="whitelist-textinput" />
-                    <span class="whitelist-text align-self-start">We're looking to</span>
-                    <select style="text-indent: 13px; padding: 0px" id="purpose" class="whitelist-textinput">
-                        <option>Select a purpose</option>
-                        <option>Monitor employee spending in real-time</option>
-                        <option>Approve spending before it occurs</option>
-                        <option>Create virtual cards for online payments and subscriptions</option>
-                        <option>Disburse cash advance to employees for purchasing</option>
-                        <option>Give plastic card to employees for spending</option>
-                    </select>
-                    <button type="submit" id="whitelist-submit-btn" class="whitelist-submit-btn">Submit</button>
-                    <span id="whitelist-error" class="whitelist-error text-center"></span>
-                </div>
-                <div class="d-flex flex-column align-items-center whitelist-success-container whitelist-success-container--not-visible">
-                    <h3 style="margin: 35px 0px; font-weight: 700">You're in!</h3>
-                    <img style="max-width: 100px" src="svgs/success icon.svg">
-                    <p class="whitelist-success-text">Hey <span id="fullName"></span>, thanks for signing up
-                        to our waitlist! Please check your email for a message from us.</p>
-                </div>
-            </div>
+      <div class="d-flex flex-column align-items-center">
+        <div class="d-flex flex-column align-items-center whitelist-form">
+          <i class="ion-ios-close-outline whitelist-close-btn"></i>
+          <div
+            class="d-flex flex-column align-items-center whitelist-form-container"
+          >
+            <h3 class="whitelist-title">Joining our waiting list</h3>
+            <input
+              type="text"
+              id="name"
+              required
+              placeholder="First and Last Name"
+              class="whitelist-textinput"
+            />
+            <input
+              type="text"
+              id="email"
+              required
+              placeholder="Work Email"
+              class="whitelist-textinput"
+            />
+            <input
+              type="text"
+              id="companyName"
+              required
+              placeholder="Company Name"
+              class="whitelist-textinput"
+            />
+            <span class="whitelist-text align-self-start"
+              >We're looking to</span
+            >
+            <select
+              style="text-indent: 13px; padding: 0px"
+              id="purpose"
+              class="whitelist-textinput"
+            >
+              <option>Select a purpose</option>
+              <option>Monitor employee spending in real-time</option>
+              <option>Approve spending before it occurs</option>
+              <option
+                >Create virtual cards for online payments and
+                subscriptions</option
+              >
+              <option>Disburse cash advance to employees for purchasing</option>
+              <option>Give plastic card to employees for spending</option>
+            </select>
+            <button
+              type="submit"
+              id="whitelist-submit-btn"
+              class="whitelist-submit-btn"
+            >
+              Submit
+            </button>
+            <span
+              id="whitelist-error"
+              class="whitelist-error text-center"
+            ></span>
+          </div>
+          <div
+            class="d-flex flex-column align-items-center whitelist-success-container whitelist-success-container--not-visible"
+          >
+            <h3 style="margin: 35px 0px; font-weight: 700">You're in!</h3>
+            <img style="max-width: 100px" src="svgs/success icon.svg" />
+            <p class="whitelist-success-text">
+              Hey <span id="fullName"></span>, thanks for signing up to our
+              waitlist! Please check your email for a message from us.
+            </p>
+          </div>
         </div>
+      </div>
     </div>
     <script type="text/javascript" src="js/main.js"></script>
-</body>
-
+  </body>
 </html>

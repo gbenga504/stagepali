@@ -1,0 +1,33 @@
+/** 
+ready-to-launch 
+**/
+.ready-launch-container {
+  background: #378ff2;
+  margin-top: 50px;
+  padding: 40px 25% !important;
+}
+
+.ready-launch-container__text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.ready-launch-container__bottom-access-btn {
+  border-radius: 7px;
+  background-color: #ffffff;
+  color: #073d7d;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Nunito Sans";
+  padding: 0px 17px;
+}
+
+@media (max-width: 600px) {
+  .ready-launch-container {
+    padding: 25px 5% !important;
+  }
+}

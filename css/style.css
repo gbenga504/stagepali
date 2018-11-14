@@ -1,41 +1,22 @@
-.product-intro-title {
-  /* color: #444444; */
-  color: #fff;
+body {
+  overflow-x: hidden !important;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  counter-reset: item;
+  padding-top: 0;
+  background-color: #fff;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #80858d;
   font-family: "Quicksand", sans-serif;
-  font-weight: 700;
-  line-height: 45px;
 }
 
-.tc-white {
-  color: #fff;
-}
-
-.product-about-text-group-title {
-  color: #073d7d;
-  font-size: 18px;
-  font-family: "Nunito Sans";
-  font-weight: 700;
-  line-height: 21px;
-  margin-bottom: 15px;
-}
-
-.fs-single {
-  color: #5d6279;
-  font-family: Quicksand;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 20px;
-}
-
-.product-about-text-group-title {
-  font-weight: 700;
-  line-height: 40px;
-}
-
-html {
-  overflow-y: scroll !important;
-}
-
-.ready-launch-container {
-  background: #378ff2;
+a,
+a.link {
+  text-decoration: none;
+  background: none;
+  color: inherit;
+  display: inline-block;
 }
