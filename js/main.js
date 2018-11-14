@@ -168,10 +168,11 @@ function submitWhiteListForm() {
 }
 
 function fixpageHeaderLayout() {
+  let threshold = 0,
+    siteHeader = document.querySelector(".site-header");
+
   window.onscroll = function(e) {
-    let posY = window.pageYOffset,
-      threshold = 0,
-      siteHeader = document.querySelector(".site-header");
+    let posY = window.pageYOffset;
 
     if (posY == 0) {
       threshold = 0;
@@ -197,6 +198,9 @@ function fixpageHeaderLayout() {
     } else if (posY >= 601 && !siteHeader.classList.contains("is-maximized")) {
       threshold = posY;
       siteHeader.classList.add("is-maximized");
+    } else if (posY >= 601 && siteHeader.classList.contains("is-minimized")) {
+      threshold = posY;
+      siteHeader.classList.remove("is-minimized");
     }
   };
 }

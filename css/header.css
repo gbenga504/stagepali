@@ -20,7 +20,7 @@
   transition: all 0.5s;
 }
 
-.site-header.home-active.is-maximized.is-minimized {
+.site-header.is-fixed.is-maximized.is-minimized {
   transform: translateY(-100%);
   transition: all 0.5s;
 }
