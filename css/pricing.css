@@ -1,12 +1,13 @@
 /**
 * header section 
 */
-.header-container {
-  background: #2b8cf3;
-  padding-bottom: 20px;
-  height: 74px;
+.site-header {
+  background: url("../images/bg-hero.jpg");
 }
 
+/**
+* Pricing section
+**/
 .pricing-parent-container {
   margin-top: 180px;
   font-family: "Nunito Sans";

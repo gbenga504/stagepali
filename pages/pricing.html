@@ -83,64 +83,61 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
     />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/product.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/overriders.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/mobile-side-nav.css" />
     <link rel="stylesheet" href="../css/whitelist.css" />
     <link rel="stylesheet" href="../css/pricing.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
   </head>
 
   <body id="body" class="product product black-links lang-en en">
-    <main class="main bg-white">
-      <header id="header_new" class="site-header header-container">
-        <div class="bottom-nav">
-          <div class="section pt0 pb0">
-            <div class="main-header" style="margin-top: 15px">
-              <div class="main-header-logo start-xs">
-                <a id="site-logo" href="http://www.getpali.co/">
-                  <img
-                    src="../svgs/Logo.svg"
-                    alt="Pali"
-                    width=""
-                    height="40px"
-                  />
-                </a>
-              </div>
-              <div class="main-header-menu">
-                <nav class="site-nav d-none d-lg-block" style="color: white;">
-                  <a
-                    href="../index.html#features"
-                    class="site-nav-link header-links"
-                    >Features</a
-                  >
-                  <a href="#" class="site-nav-link header-links">Pricing</a>
-                  <a href="#" class="site-nav-link header-links">Partners</a>
-                  <a href="#" class="site-nav-link header-links">FAQ</a>
-                  <a
-                    id="btn-sign-up-nav"
-                    class="btn btn-main site-nav-action site-nav-sign-up-btn mr0 header-access-btn get-access-btn"
-                    href="#"
-                    data-gaCategory="Signup"
-                    data-gaAction="ClickStartTrial"
-                    data-gaLabel="MainNavigation"
-                  >
-                    Get early access
-                  </a>
-                </nav>
+    <main>
+      <!-- Fixed header aspect of the application -->
+      <header class="site-header d-flex align-items-center">
+        <div class="section">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="main-header-logo d-flex align-items-center start-xs">
+              <a
+                class="main-header"
+                id="site-logo"
+                href="http://www.getpali.co/"
+              >
+                <img src="../svgs/Logo.svg" alt="Pali" width="" height="40px" />
+              </a>
+            </div>
+            <div class="main-header-menu">
+              <nav class="d-none d-lg-block" style="color: white;">
                 <a
-                  class="hamburger header-mobile-hamburger d-block d-lg-none"
-                  style="line-height: 1; vertical-align: middle;"
+                  href="../index.html#features"
+                  class="site-nav-link header-links"
+                  >Features</a
                 >
-                  <i class="ion-android-menu fs-bigger header-menu-icon"></i>
-                  <span class="dn">Menu</span>
+                <a href="#" class="site-nav-link header-links">Pricing</a>
+                <a href="#" class="site-nav-link header-links">Partners</a>
+                <a href="#" class="site-nav-link header-links">FAQ</a>
+                <a
+                  id="btn-sign-up-nav"
+                  class="header-access-btn get-access-btn"
+                  href="#"
+                  data-gaCategory="Signup"
+                  data-gaAction="ClickStartTrial"
+                  data-gaLabel="MainNavigation"
+                >
+                  Get early access
                 </a>
-              </div>
+              </nav>
+              <a class="header-mobile-hamburger d-block d-lg-none">
+                <i class="ion-android-menu header-menu-icon"></i>
+              </a>
             </div>
           </div>
         </div>
       </header>
+      <!-- End of the header aspect of the application -->
     </main>
+
+    <!-- Pricing section -->
     <div class="d-flex flex-column align-items-center">
       <div
         class="d-flex flex-column align-items-center pricing-parent-container"
@@ -174,228 +171,129 @@
         </div>
       </div>
     </div>
-    <footer class="site-footer new-footer">
-      <div
-        class="footer-section section xs-text-c"
-        style="padding-top: 40px !important;"
-      >
-        <div class="row pt0 pb6 xs-pt5 xs-pb5">
-          <div
-            class="col-12 col-md-6 col-xl-3 tc-gray200 pr5 xs-pr5 lg-pt0 lg-pb8"
-          >
-            <h4 class="footer-nav-title fs-single tt-upper mt3 mb3 xs-mb2">
-              FEATURES
-            </h4>
+    <!-- End of the Pricing section -->
+
+    <!-- Footer of the application -->
+    <footer class="site-footer d-flex flex-column new-footer">
+      <div class="d-flex flex-column flex-sm-row site-footer__top-container">
+        <div class="d-flex justify-content-between">
+          <div class="d-flex flex-column">
+            <h4 class="footer-nav-title">FEATURES</h4>
             <nav class="nav-list">
-              <ul class="no-bullet">
+              <ul class="site-footer__no-bullet">
+                <li><a href="" title="Company Card"> Company Card </a></li>
                 <li>
-                  <a
-                    class="fs-single"
-                    href=""
-                    title="Company Card"
-                    data-ga-category="Site Nav Product"
-                  >
-                    Company Card
-                  </a>
+                  <a href="" title="Request and Spend"> Request and Spend </a>
                 </li>
+                <li><a href="" title="Full Control"> Full Control </a></li>
                 <li>
-                  <a
-                    class="fs-single"
-                    href=""
-                    title="Request and Spend"
-                    data-ga-category="Site Nav Product"
-                    >Request and Spend
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="fs-single"
-                    href=""
-                    title="Full Control"
-                    data-ga-category="Site Nav Product"
-                  >
-                    Full Control
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="fs-single"
-                    href="#"
-                    title="Real Time Overview"
-                    data-ga-category="Site Nav Product"
-                  >
+                  <a href="#" title="Real Time Overview">
                     Real Time Overview
                   </a>
                 </li>
                 <li>
-                  <a
-                    class="fs-single"
-                    href="#"
-                    title="Automate Access "
-                    data-ga-category="Site Nav Product"
-                  >
-                    Automate Access
-                  </a>
+                  <a href="#" title="Automate Access"> Automate Access </a>
                 </li>
                 <li>
-                  <a
-                    class="fs-single"
-                    href="#"
-                    title="Detailed Reporting "
-                    data-ga-category="Site Nav Product"
-                    >Detailed Reporting
+                  <a href="#" title="Detailed Reporting">
+                    Detailed Reporting
                   </a>
                 </li>
               </ul>
             </nav>
           </div>
+          <div class="d-flex flex-column">
+            <h4 class="footer-nav-title">PRICING</h4>
+            <nav class="nav-list">
+              <ul class="site-footer__no-bullet">
+                <li><a href="#" title="Integrations">Integrations </a></li>
+                <li><a href="#" title="FAQ">FAQ </a></li>
+                <li><a href="#" title="Partners"> Partners </a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
 
-          <div
-            class="col-12 col-md-6 col-xl-3 tc-gray200 pr5 xs-pr5 lg-pt0 lg-pb8"
-          >
-            <h4 class="footer-nav-title fs-single tt-upper mt3 mb3 xs-mb2">
-              PRICING
-            </h4>
+        <div
+          class="d-flex justify-content-between site-footer__second-inner-container"
+        >
+          <div class="d-flex flex-column">
+            <h4 class="footer-nav-title">COMPANY</h4>
             <nav class="nav-list">
-              <ul class="no-bullet">
-                <li>
-                  <a
-                    class="fs-single"
-                    href="#"
-                    title="Integrations"
-                    data-ga-category="Site Nav Resources"
-                    >Integrations
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="fs-single"
-                    href="#"
-                    title="FAQ"
-                    target=""
-                    data-ga-category="Site Nav Resources"
-                    >FAQ
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="fs-single"
-                    href="#"
-                    title="Partners"
-                    data-ga-category="Site Nav Resources"
-                  >
-                    Partners
-                  </a>
-                </li>
+              <ul class="site-footer__no-bullet">
+                <li><a href="#" title="About Us"> About Us </a></li>
               </ul>
             </nav>
           </div>
-          <div
-            class="col-12 col-md-6 col-xl-3 tc-gray200 pr5 xs-pr5 lg-pt0 lg-pb8"
-          >
-            <h4 class="footer-nav-title fs-single tt-upper mt3 mb3 xs-mb2">
-              COMPANY
-            </h4>
+          <div class="d-flex flex-column">
+            <h4 class="footer-nav-title">GET IN TOUCH</h4>
             <nav class="nav-list">
-              <ul class="no-bullet">
+              <ul class="site-footer__no-bullet">
                 <li>
-                  <a
-                    class="fs-single"
-                    href="#"
-                    title="About Us"
-                    data-ga-category="Site Nav About"
-                  >
-                    About Us
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div
-            class="col-12 col-md-6 col-xl-3 tc-gray200 pr5 xs-pr5 lg-pt0 lg-pb8"
-          >
-            <h4 class="footer-nav-title fs-single tt-upper mt3 mb3 xs-mb2">
-              GET IN TOUCH
-            </h4>
-            <nav class="nav-list">
-              <ul class="no-bullet">
-                <li>
-                  <a
-                    class="fs-single"
-                    href="mail-to: info@getpali.co"
-                    title="Contact"
-                    data-ga-category="Site Nav Contact"
+                  <a href="mail-to: info@getpali.co" title="Contact"
                     >info@getpali.co
                   </a>
                 </li>
-                <div class="mt0 mb3">
-                  <div class="social pt1">
-                    <a
-                      target="_blank"
-                      title="Facebook"
-                      class="icon-facebook2 link-stripped"
-                      href="https://medium.com/palihq/"
-                    >
-                      <i
-                        class="tc-black fs-bigger lh-none mr2 ion-social-facebook"
-                      ></i>
-                    </a>
-                    <a
-                      target="_blank"
-                      title="Twitter"
-                      class="icon-twitter link-stripped"
-                      href="https://twitter.com/palihq/"
-                    >
-                      <i
-                        class="tc-black fs-bigger lh-none mr2 ion-social-instagram-outline"
-                      ></i>
-                    </a>
-                    <a
-                      target="_blank"
-                      title="LinkedIn"
-                      class="icon-linkedin link-stripped"
-                      href="https://www.linkedin.com/company/getpali/"
-                    >
-                      <i
-                        class="tc-black fs-bigger lh-none mr2 ion-social-twitter"
-                      ></i>
-                    </a>
-                  </div>
+                <div class="d-flex justify-content-between" style="width: 100%">
+                  <a
+                    target="_blank"
+                    title="Facebook"
+                    class="icon-facebook2 link-stripped"
+                    href="https://medium.com/palihq/"
+                  >
+                    <i class="ion-social-facebook"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    title="Twitter"
+                    class="icon-twitter link-stripped"
+                    href="https://twitter.com/palihq/"
+                  >
+                    <i class="ion-social-instagram-outline"></i>
+                  </a>
+                  <a
+                    target="_blank"
+                    title="LinkedIn"
+                    class="icon-linkedin link-stripped"
+                    href="https://www.linkedin.com/company/getpali/"
+                  >
+                    <i class="ion-social-twitter"></i>
+                  </a>
                 </div>
               </ul>
             </nav>
           </div>
         </div>
-        <div>
-          <p class="fs-smaller" style="margin-bottom: 0px !important;">
-            GetPali.co is a property of Pali Technologies Nigeria limited, a
-            company duly registered with the
-          </p>
-          <p class="fs-smaller" style="margin-bottom: 0px !important;">
-            Corporate Affairs Commission, Nigeria with the RC Number 1419869
-          </p>
-          <p
-            class="fs-smaller"
-            style="margin-bottom: 20px !important; margin-top: 10px"
-          >
-            The Pali Card issued by Bank, pursuant to a license from Visa.
-          </p>
-        </div>
-        <div class="footer-bottom-part text-c xs-pt2">
-          <p class="fs-smaller">
-            &copy; Pali Technologies, Ltd. Made with
-            <i class="ion-ios-heart" style="color: red"></i> in Lagos.
-          </p>
-        </div>
+      </div>
+      <div>
+        <p class="site-footer__smaller-text">
+          GetPali.co is a property of Pali Technologies Nigeria limited, a
+          company duly registered with the
+        </p>
+        <p class="site-footer__smaller-text">
+          Corporate Affairs Commission, Nigeria with the RC Number 1419869
+        </p>
+        <p
+          class="site-footer__smaller-text"
+          style="margin-bottom: 20px !important; margin-top: 10px"
+        >
+          The Pali Card issued by Bank, pursuant to a license from Visa.
+        </p>
+      </div>
+      <div class="align-self-center">
+        <span class="site-footer__smaller-text">
+          &copy; Pali Technologies, Ltd. Made with
+          <i class="ion-ios-heart" style="color: red"></i> in Lagos.
+        </span>
       </div>
     </footer>
+    <!-- End of the footer of the application -->
 
     <!-- This is the toggle menu container for mobile screens -->
-    <div
-      id="toggle_menu"
-      class="bg-dark toggle-menu pt4 pb4 pl4 pr4 xs-pt3 xs-pb3 xs-pl2 xs-pr2"
-    >
-      <div class="header-mobile-top main-header">
+    <div id="toggle_menu" class="toggle-menu">
+      <div
+        class="d-flex justify-content-between align-items-center main-header"
+      >
         <a href="http://www.getpali.co/">
           <img
             src="../images/palilogowhite.png"
@@ -404,34 +302,22 @@
             height="32"
           />
         </a>
-        <a class="header-mobile-close pt1 pb1 pl2 pr0 fs-medium">
-          <i class="ion-ios-close-outline" style="color: #fff"></i>
+        <a class="header-mobile-close">
+          <i class="ion-ios-close-outline"></i>
         </a>
       </div>
-      <nav class="site-nav db mt4 mb4">
+      <nav class="site-nav">
         <a href="../index.html#features" class="site-nav-link">Features</a>
         <a href="#" class="site-nav-link">Pricing</a>
         <a href="#" class="site-nav-link">Customers</a>
         <a href="#" class="site-nav-link">FAQ</a>
+        <a href="#" class="site-nav-link login">Login</a>
       </nav>
-      <a
-        class="btn btn-main site-nav-action site-nav-sign-up-btn get-access-btn"
-        href="#"
-        data-gaCategory="Signup"
-        data-gaAction="ClickStartTrial"
-        data-gaLabel="MainNavigation"
-      >
-        Request Early Access
-      </a>
-      <a
-        href="#"
-        class="site-nav-action btn btn-gray"
-        data-gaCategory="Login"
-        data-gaAction="ClickLogin"
-        data-gaLabel="TK.comNavigation"
-      >
-        Log In
-      </a>
+      <div class="d-flex align-items-center">
+        <a href="#" class="mobile-request-early-access get-access-btn">
+          Request Early Access
+        </a>
+      </div>
     </div>
 
     <!-- This is for the modal section of the page -->
