@@ -220,12 +220,13 @@ second section of page
   .product-about__fourth-image {
     width: 100% !important;
     height: 80% !important;
-    margin-top: 0px;
+    margin-top: 25px;
     margin-left: 0px;
   }
 
   .product-about__fifth-image {
     margin-bottom: 50px;
+    margin-top: 80px;
   }
 
   .product-about__ltr-content-position {
@@ -239,14 +240,6 @@ second section of page
     padding: 10px 48px;
     margin-top: 0px;
     width: 100% !important;
-  }
-
-  .product-about__rtl-content-position:nth-child(1) {
-    margin-top: -30px;
-  }
-
-  .product-about__ltr-content-position:nth-child(2) {
-    margin-top: -30px;
   }
 
   .product-about-desc {
@@ -264,6 +257,19 @@ second section of page
 
   .product-automated-reconciliation__container {
     padding: 24px;
+  }
+
+  .product-about__second-content,
+  .product-about__third-content {
+    margin-top: -45px;
+  }
+
+  .product-about__fourth-content {
+    margin-top: -35px;
+  }
+
+  .product-about__fifth-content {
+    margin-top: -30px;
   }
 }
 
