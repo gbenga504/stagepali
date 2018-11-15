@@ -205,7 +205,7 @@
 
   .product-lead-subtitle {
     text-align: center;
-    line-height: calc(0.015539772727273 * (100vw - 320px) + 18px) !important;
+    line-height: calc(0.015539772727273 * (100vw - 320px) + 23px) !important;
   }
 
   .tagline-header .tagline-text {
